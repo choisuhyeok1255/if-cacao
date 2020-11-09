@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body  {
+  background: black;
+  color: #fff;
+}
+header {
+  border-bottom: 1px solid #aaa;
+}
+header .inner {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kakao-heading {
+
+}
+.kakao-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+}
+.kakao-list li {
+  margin: 10px;
+}
+main .inner {
+  width: 95vw;
+  margin: 0 auto;
+}
+.video-ratio {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+main video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
